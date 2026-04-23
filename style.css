@@ -13,6 +13,9 @@ a {
     text-decoration: none;
     color: black;
 }
+p {
+    font-size: 20px;
+}
 
 #navbar {
     padding: 0 50px;
@@ -65,11 +68,20 @@ a {
     background-color: #ffe694;
 }
 
-#main-1 {
+.section-title {
     margin-top: 200px;
+    margin-bottom: 100px;
     text-align: center;
 }
-
+.graytext {
+    color: #676767;
+}
+hr {
+    border: 0;
+    border-top: 2px solid #333;
+    width: 70%;
+    margin-left: 400px;
+}
 #main-2 {
     display: flexbox;
     text-align: center;
@@ -87,6 +99,19 @@ a {
     max-width: 250px;
     height: auto;
     display: flexbox;
+}
+
+
+#menu-section {
+    display: flexbox;
+}
+.menu1 {
+    display: flex;
+    gap: 16px;
+}
+#menuimg1 {
+    max-width: 270px;
+    height: auto;
 }
 
 .home-content {
