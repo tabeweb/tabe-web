@@ -169,7 +169,7 @@ hr {
     grid-template-columns: repeat(3, 1fr);
 }
 .contactimg {
-    max-width: 300px;
+    max-width: 50%;
 }
 
 .anim {
